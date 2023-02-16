@@ -18,8 +18,8 @@ class App extends Component {
     this.state = {
       user: null,
       token: sessionStorage.getItem("cms_token"),
-      // api: "https://cmsn.onrender.com/api/v1", //"http://localhost:7700/api/v1";
-      api: "http://localhost:5500/api/v1", //"http://localhost:7700/api/v1";
+      api: "https://cmsn.onrender.com/api/v1", //"http://localhost:7700/api/v1";
+      // api: "http://localhost:5500/api/v1", //"http://localhost:7700/api/v1";
     };
   }
 
