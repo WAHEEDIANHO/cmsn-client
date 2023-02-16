@@ -143,9 +143,9 @@ function AddCriminal({ api }) {
       <div className="container-fluid">
         <Guide>
           <h3>
-            Add Criminal into <strong>CRMS</strong>
+             <strong>Application of Queue Theory</strong>
           </h3>
-          <p className="mb-4">Crime Managemen System</p>
+          {/*<p className="mb-4">Crime Managemen System</p>*/}
         </Guide>
         {/* onSubmit={submit} */}
         <div className="container">

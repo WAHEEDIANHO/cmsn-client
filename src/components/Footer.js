@@ -24,8 +24,8 @@ function Footer() {
         className="text-center py-3"
         style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}
       >
-        2022 Criminal Management Sysytem <br />
-        HC20200206048 <br />
+        2023 Application of Queue Theory in the Reduction of Correctional Center Congestion <br />
+        HC20200103307 <br />
         Supervised By <strong>MR.CHRIS</strong>
       </div>
       {/* <!-- Copyright --> */}

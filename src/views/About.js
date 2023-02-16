@@ -9,16 +9,15 @@ function About() {
             <div className="card p-4 bg-dark text-white rounded-4">
               <h3>Project Topic</h3>
               <p>
-                Design and implementation of a Web based Crime Management
-                System Using ReactJS, NodeJs & MongoDB
+                Application of Queue Theory in Reduction of Correctional center congestion
               </p>
               <div className="img__holder">
-                <img src="/img/gbadegesin.jpeg" alt="owner" />
+                <img src="/img/que.jpeg" alt="owner" />
               </div>
 
               <div className="bio">
-                <p>Mudashir Ridwan Ademola</p>
-                <p>HC20200206048</p>
+                <p>Abganiyu Tawakalt Omomumi</p>
+                <p>HC20200103307</p>
                 <p>HND II</p>
                 <p>COMPUTER SCIENCE</p>
 

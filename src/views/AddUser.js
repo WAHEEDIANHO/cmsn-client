@@ -93,9 +93,9 @@ function AddCriminal({ title, api }) {
       <div className="container-fluid">
         <Guide>
           <h3>
-            Register {title} into <strong>CRMS</strong>
+            <strong>Application of Queue Theory</strong>
           </h3>
-          <p className="mb-4">Crime Managemen System</p>
+          {/*<p className="mb-4">Crime Managemen System</p>*/}
         </Guide>
         {/* onSubmit={submit} */}
         <div className="container">

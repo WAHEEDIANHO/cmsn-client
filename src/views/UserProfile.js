@@ -76,10 +76,10 @@ class UserProfile extends React.Component {
       <>
         {loading ? <Loader /> : null}
         <Guide>
-          <h3>{`${user.sname ? user.sname : ""} ${
-            user.othername ? user.othername : ""
-          } Profile`}</h3>
-          <p className="mb-4">Crime Managemen System</p>
+          <h3>
+            <strong>Application of Queue Theory</strong>
+          </h3>
+          {/*<p className="mb-4">Crime Managemen System</p>*/}
         </Guide>
         <div className="card container rounded bg-white mt-5 mb-5">
           {user.hasOwnProperty("email") ? (
@@ -88,7 +88,7 @@ class UserProfile extends React.Component {
                 <div className="d-flex flex-column align-items-center text-center p-3 py-5">
                   <img
                     alt="user"
-                    className="rounded-circle mt-5"
+                    className="ro
                     width="150px"
                     src={`${this.props.api}/${user.imageUrl}`}
                   />

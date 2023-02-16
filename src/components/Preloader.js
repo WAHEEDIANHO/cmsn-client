@@ -18,14 +18,15 @@ function Preloader() {
     <div className="preloader" >
       <div className="overlay"></div>
       <h1 className="text-center mb-4 text-white">
-        Design and Implementation of <em>Crime Management System</em>
+        {/*Design and Implementation of <em>Crime Management System</em>*/}
+          Application of Queue Theory in Reduction of Correctional Center Congestion
       </h1>
-        <h3 className={"text-white"}>A case study of The Nigeria Police Force, Ede North LG</h3>
+        {/*<h3 className={"text-white"}>A case study of The Nigeria Police Force, Ede North LG</h3>*/}
       <h4 className="text-center">
         Design By:{" "}
-        <strong className="text-muted ">Mudashir Ridwan Ademola</strong>
+        <strong className="text-muted ">Abdulganiyu Tawakalt Omowumi</strong>
       </h4>
-      <h3 className="mt-3 text-white text-center">HC20200206048</h3>
+      <h3 className="mt-3 text-white text-center">HC20200103307</h3>
 
       <h4 className="mt-3">Supervised By</h4>
       <h3 className="text-white">Mr. Chris</h3>

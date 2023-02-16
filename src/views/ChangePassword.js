@@ -35,8 +35,10 @@ function ChangePassword({ api, email }) {
     <div>
       {loading ? <Loader /> : null}
       <Guide>
-        <h3>Reset Password</h3>
-        <p className="mb-4">Crime Management System</p>
+        <h3>
+          <strong>Application of Queue Theory</strong>
+        </h3>
+        {/*<p className="mb-4">Crime Managemen System</p>*/}
       </Guide>
       <div className="container">
         <div className="row justify-content-center">

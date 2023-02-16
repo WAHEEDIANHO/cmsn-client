@@ -115,9 +115,9 @@ class CriminalReport extends React.Component {
         {this.state.loading ? <Loader /> : null}
         <Guide>
           <h3>
-            Criminals Report from <strong>CRMS</strong>
+            <strong>Application of Queue Theory</strong>
           </h3>
-          <p className="mb-4">Crime Managemen System</p>
+          {/*<p className="mb-4">Crime Managemen System</p>*/}
         </Guide>
         <div className="container">
           <Search handeleSearch={this.handeleSearch} />

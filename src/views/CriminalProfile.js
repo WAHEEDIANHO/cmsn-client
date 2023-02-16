@@ -95,10 +95,10 @@ class CriminalProfile extends React.Component {
       <>
         {loading ? <Loader /> : null}
         <Guide>
-          <h3>{`${criminal.sname ? criminal.sname : ""} ${
-            criminal.othername ? criminal.othername : ""
-          } Profile`}</h3>
-          <p className="mb-4">Crime Managemen System</p>
+          <h3>
+            <strong>Application of Queue Theory</strong>
+          </h3>
+          {/*<p className="mb-4">Crime Managemen System</p>*/}
         </Guide>
         <div className="card container rounded bg-white mt-5 mb-5">
           {criminal.hasOwnProperty("email") ? (
