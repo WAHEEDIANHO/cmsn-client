@@ -88,7 +88,7 @@ class UserProfile extends React.Component {
                 <div className="d-flex flex-column align-items-center text-center p-3 py-5">
                   <img
                     alt="user"
-                    className="ro
+                    className="rounded-circle mt-5"
                     width="150px"
                     src={`${this.props.api}/${user.imageUrl}`}
                   />
